@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+import { Grid } from './Components/Design';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <p className="mx-auto ">This is a begginer Project Kindly use "=" after every operand.Example-2*3 press = and then proceed.There might be some bugs. Consider them as features.</p>
+  <Grid/>
+
+  </>
   );
 }
 
